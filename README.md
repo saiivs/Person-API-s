@@ -14,6 +14,7 @@ step 6: This project is using two api's
          * localhost:3000/post/person ->api used for creating the user data in the database.
          * localhost:3000/get/person ->api used for fetching the all user data from the database.
          
-step 7: We are dealing her with NoSql database called mongodb & i have used mongoose client for the connection and creating a schema, So that the data will be entered to
-        the database according to the schema.
+step 7: We are dealing here with NoSql database called mongodb & i have used mongoose client for the connection and creating a schema, So that the data will be entered           to the database according to the schema. The schema is specified inside the root folder -> Technisanct/model/schema.js.
+
+Iam using my mongodb atlas cluster, You can replace the url field with your local database.
         
